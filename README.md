@@ -8,5 +8,12 @@ P.S if you dont like it, bite me.
 
 # Assemble and Link
 nasm -felf64 RIPcreds.nasm -o RIPcreds.o
+
+
+
 ld RIPcreds.o -o RIPcreds
+
+
+
+
 ./RIPcreds ((just give the executable to your friends lol))
