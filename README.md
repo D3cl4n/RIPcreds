@@ -5,3 +5,8 @@ To change the hardocded IP and port I have included in the comments a quick way 
 
 P.S if you dont understand the name of the project RIP = instruction pointer & Rest In Peace ;)
 P.S if you dont like it, bite me.
+
+# Assemble and Link
+nasm -felf64 RIPcreds.nasm -o RIPcreds.o
+ld RIPcreds.o -o RIPcreds
+./RIPcreds ((just give the executable to your friends lol))
